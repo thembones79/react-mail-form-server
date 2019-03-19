@@ -31,7 +31,7 @@ app.post('/api/v1', (req, res) => {
       secure: false, // true for 465, false for other ports
       auth: {
         user: "order@unisystem.pl", // generated ethereal user
-        pass: "turlam3M&Msy" // generated ethereal password
+        pass: "*" // generated ethereal password
       },
       tls: {
         rejectUnauthorized: false
